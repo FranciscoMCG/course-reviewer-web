@@ -14,6 +14,14 @@ h4 {
   line-height: 1.5;
 }
 
+p {
+  font-family: "Roboto", sans-serif, "arial";
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+  line-height: 1.5;
+}
+
 body {
   background-color: #444442;
   letter-spacing: 1px;
