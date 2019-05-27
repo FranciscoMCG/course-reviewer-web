@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./style.css";
 
-import NotFound from "./NotFound";
+import NotFound from "./Pages/NotFoundPage";
 import ReviewsListPage from "./Pages/ReviewsListPage";
 import CreateReviewPage from "./Pages/CreateReviewPage";
 import HomePage from "./Pages/HomePage";
