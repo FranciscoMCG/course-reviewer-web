@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomePage/ > should render component 1`] = `
+<Fragment>
+  <h1>
+    Course reviews
+  </h1>
+  <div
+    className="col-md-12"
+  >
+    <div
+      className="button-wrapper btn-container-center"
+    >
+      <Link
+        className="link"
+        to="/reviews"
+      >
+        See reviews
+      </Link>
+      <Link
+        className="link"
+        to="/reviews/create-review"
+      >
+        Create a review
+      </Link>
+    </div>
+  </div>
+</Fragment>
+`;
