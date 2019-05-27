@@ -1,0 +1,75 @@
+h1 {
+  font-family: "Poppins", sans-serif, "arial";
+  font-weight: 600;
+  font-size: 72px;
+  color: white;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif, "arial";
+  font-weight: 400;
+  font-size: 20px;
+  color: white;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #444442;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.link {
+  text-decoration: none;
+  background: #38a1f3;
+  color: white;
+  border-radius: 3px;
+  font-size: 1em;
+  font-family: sans-serif;
+  font-weight: 800;
+  padding: 16px;
+  transition: all 0.1s ease;
+  margin: 10px;
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link:hover {
+  background: white;
+  color: #38a1f3;
+  cursor: pointer;
+}
+
+.button-wrapper .btn {
+  margin: 20px 0px;
+}
+.button-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+}
+
+@media (min-width: 520px) {
+  .button-wrapper {
+    align-items: center;
+    flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+  }
+  .btn-container-center > a.btn {
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+  .btn-container-center {
+    justify-content: center;
+  }
+  .btn-container-center > a.btn:first-of-type {
+    margin-left: 0;
+  }
+  .btn-container-center > a.btn:last-of-type {
+    margin-right: 0;
+  }
+}
