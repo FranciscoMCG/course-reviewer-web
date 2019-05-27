@@ -4,7 +4,6 @@ import "../Components/Forms/form.css";
 import CreateReviewForm, {
   PostReview
 } from "../Components/CreateReview/CreateReviewForm";
-
 import TextField from "../Components/Forms/TextField";
 import TextAreaField from "../Components/Forms/TextAreaField";
 import SubmitButton from "../Components/Forms/SubmitButton";
@@ -52,6 +51,7 @@ const CreateReviewPage: React.FC<{}> = () => {
                 name="firstName"
                 value={review.firstName}
                 onChange={handleChange}
+                required
               />
             </div>
           </div>
@@ -62,6 +62,7 @@ const CreateReviewPage: React.FC<{}> = () => {
                 name="lastName"
                 value={review.lastName}
                 onChange={handleChange}
+                required
               />
             </div>
           </div>
@@ -73,6 +74,7 @@ const CreateReviewPage: React.FC<{}> = () => {
                 name="email"
                 value={review.email}
                 onChange={handleChange}
+                required
               />
             </div>
           </div>
@@ -83,6 +85,7 @@ const CreateReviewPage: React.FC<{}> = () => {
                 name="course"
                 value={review.course}
                 onChange={handleChange}
+                required
               />
             </div>
           </div>
@@ -93,6 +96,7 @@ const CreateReviewPage: React.FC<{}> = () => {
                 name="review"
                 value={review.review}
                 onChange={handleChange}
+                required
               />
             </div>
           </div>
