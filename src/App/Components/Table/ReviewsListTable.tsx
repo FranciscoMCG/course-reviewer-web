@@ -14,14 +14,16 @@ const ReviewsListTable = ({ reviews }: any) => (
         </tr>
       </thead>
       <tbody>
-        {reviews.map((review: Review) => (
-          <tr key={review._id}>
-            <td>{review.firstName}</td>
-            <td>{review.lastName}</td>
-            <td>{review.email}</td>
-            <td>{review.course}</td>
-          </tr>
-        ))}
+        {reviews &&
+          reviews.map((review: Review) => (
+            <tr key={review._id}>
+              <td>{review && review.firstName}</td>
+              <td>{review && review.lastName}</td>
+              <td>{review && review.email}</td>
+              <td>{review && review.course}</td>
+              <td>{review && review.review}</td>
+            </tr>
+          ))}
       </tbody>
     </table>
   </div>

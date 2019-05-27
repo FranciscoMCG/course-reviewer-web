@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReviewsListTable /> should render component 1`] = `
+<div
+  className="table-wrapper"
+>
+  <table
+    className="fl-table"
+  >
+    <thead>
+      <tr>
+        <th
+          key="0"
+        >
+          First Name
+        </th>
+        <th
+          key="1"
+        >
+          Last Name
+        </th>
+        <th
+          key="2"
+        >
+          Email
+        </th>
+        <th
+          key="3"
+        >
+          Course
+        </th>
+        <th
+          key="4"
+        >
+          Review
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;
