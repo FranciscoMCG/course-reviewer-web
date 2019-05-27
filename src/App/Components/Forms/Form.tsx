@@ -1,6 +1,10 @@
 import React from "react";
-import "./form.css";
 
-const Form = () => <p>Form</p>;
+interface FormProps {
+  onSubmit: any;
+}
+const Form: React.FC<FormProps> = ({ children, onSubmit }) => (
+  <form onSubmit={onSubmit}>{children}</form>
+);
 
 export default Form;
